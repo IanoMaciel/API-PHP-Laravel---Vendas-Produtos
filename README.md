@@ -13,7 +13,8 @@ php artisan serve
 - Nesse momento a API vai estar respondendo na porta 8000 (http://ip_da_aplicação:8000)
 - Também é possível gerar um imagem via docker, onde está encapsulado a aplicação Laravel e o Servidor MySQL, acesse o diretório da aplicação via terminal:
 
-docker run -p 8000:8000 -v $(pwd):/var/www/html apiprodutos
+docker-compose build
+docker-compose up
 docker-compose exec app php artisan migrate:fresh
 docker-compose exec app php artisan db:seed
 
