@@ -5,6 +5,7 @@ API Laravel de produtos
 - Necessário ambiente com php e composer.
 - Acessar o diretório da aplicação via terminal, rodar os comandos:
 
+composer install
 php artisan migrate:fresh
 php artisan db:seed
 php artisan serve
