@@ -100,3 +100,6 @@ npm run serve
 Também é possível gerar uma imagem Docker via terminal no diretório com o comando:
 
 docker build -t carrinhomaster .
+
+Licença
+Este projeto está licenciado sob a licença Creative Commons Attribution 4.0 International.
