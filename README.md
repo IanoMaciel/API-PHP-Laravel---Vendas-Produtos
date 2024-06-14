@@ -31,7 +31,7 @@ URL: /cart/products
 Método: GET
 
 Resposta de sucesso exemplo:
-
+```json
 [
     {
         "id": 1,
@@ -48,6 +48,8 @@ Resposta de sucesso exemplo:
         "price": "20.00"
     }
 ]
+```
+
 
 URL: /cart/checkout 
 
@@ -55,6 +57,7 @@ Método: POST
 
 Envia uma solicitação de checkout para concluir uma compra. Recebe como parâmetro um objeto JSON contendo um array de itens no formato:
 
+```json
 {
     "items": [
         {
@@ -71,6 +74,7 @@ Envia uma solicitação de checkout para concluir uma compra. Recebe como parâm
         }
     ]
 }
+```
 
 Onde cada objeto do array representa um item a ser comprado, contendo as seguintes propriedades:
 
